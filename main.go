@@ -69,7 +69,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("MTTR: %s\n", mttrTime)
+	fmt.Printf("MTTRs: %s\n", mttrTime)
 
 	fmt.Printf("Total PRs: %d\n", prCount)
 	if prCount > 0 {
